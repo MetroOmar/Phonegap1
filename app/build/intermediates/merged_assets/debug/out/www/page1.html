@@ -1,0 +1,59 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <title> Registration Form Using JQuery</title>
+    <link rel ="stylesheet"href="css/index.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11/jquery.min.js"></script>
+    <script type="text/javascript"  src="js/registration.js" charset="utf-8" src="cordova.js"></script>
+    <script type="text/javascript">
+document.addEventListener("deviceready", onDeviceReady, false);
+function onDeviceReady()
+ {
+alert("PhoneGap loaded");
+}
+
+function myFunction()
+{
+alert("Hello world!");
+}
+function alertCallback(){
+}
+function onDoConfirm(button){
+alert("you selected button"+ button);
+}
+function showAlert(){
+navigator.notification.alert("Game Over", alertCallback,"Game Over","Done");
+}
+function showConfirm(){
+navigator.notification.confirm("Game Over", onDoConfirm,"Game Over","Restart, Exit");
+}
+
+</script>
+</head>
+
+<body>
+<h1>Hello World</h1>
+<button onclick="myFunction()">NormalAlert</button>
+<button onclick="showAlert()">ShowAlert</button>
+<button onclick="showConfirm()">ShowConfirm</button>
+<div class="container">
+    <div class="main">
+        <form class="form" method="post" action="#">
+            <h2> Create registration form using JQuery</h2>
+            <label Name:></label>
+            <input type="text" name="dname" id="name">
+            <label Email:></label>
+            <input type="text" name="demail" id="email">
+            <label Password:></label>
+            <input type="password" name="password" id="password">
+            <label Confirm Password:></label>
+            <input type="password" name="cpassword" id="cpassword">
+            <input type="button" name="register" id="register" value="Register">
+
+        </form>
+    </div>>
+    </div>
+
+
+</body>
+</html>

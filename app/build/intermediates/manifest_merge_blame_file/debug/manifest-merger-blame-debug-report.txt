@@ -1,0 +1,98 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.phonegap"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="22"
+8-->/home/jamal/Desktop/Phonegap1/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="24" />
+9-->/home/jamal/Desktop/Phonegap1/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+11-->/home/jamal/Desktop/Phonegap1/app/src/main/AndroidManifest.xml:7:5-81
+11-->/home/jamal/Desktop/Phonegap1/app/src/main/AndroidManifest.xml:7:22-78
+12    <uses-permission android:name="android.permission.CAMERA" />
+12-->/home/jamal/Desktop/Phonegap1/app/src/main/AndroidManifest.xml:8:2-62
+12-->/home/jamal/Desktop/Phonegap1/app/src/main/AndroidManifest.xml:8:19-59
+13    <uses-permission android:name="android.permission.VIBRATE" />
+13-->/home/jamal/Desktop/Phonegap1/app/src/main/AndroidManifest.xml:9:5-66
+13-->/home/jamal/Desktop/Phonegap1/app/src/main/AndroidManifest.xml:9:22-63
+14    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+14-->/home/jamal/Desktop/Phonegap1/app/src/main/AndroidManifest.xml:10:5-81
+14-->/home/jamal/Desktop/Phonegap1/app/src/main/AndroidManifest.xml:10:22-78
+15    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+15-->/home/jamal/Desktop/Phonegap1/app/src/main/AndroidManifest.xml:11:5-79
+15-->/home/jamal/Desktop/Phonegap1/app/src/main/AndroidManifest.xml:11:22-76
+16    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" />
+16-->/home/jamal/Desktop/Phonegap1/app/src/main/AndroidManifest.xml:12:5-89
+16-->/home/jamal/Desktop/Phonegap1/app/src/main/AndroidManifest.xml:12:22-86
+17    <uses-permission android:name="android.permission.INTERNET" />
+17-->/home/jamal/Desktop/Phonegap1/app/src/main/AndroidManifest.xml:13:5-67
+17-->/home/jamal/Desktop/Phonegap1/app/src/main/AndroidManifest.xml:13:22-64
+18    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+18-->/home/jamal/Desktop/Phonegap1/app/src/main/AndroidManifest.xml:14:5-70
+18-->/home/jamal/Desktop/Phonegap1/app/src/main/AndroidManifest.xml:14:22-67
+19    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+19-->/home/jamal/Desktop/Phonegap1/app/src/main/AndroidManifest.xml:15:5-71
+19-->/home/jamal/Desktop/Phonegap1/app/src/main/AndroidManifest.xml:15:22-68
+20    <uses-permission android:name="android.permission.RECORD_VIDEO" />
+20-->/home/jamal/Desktop/Phonegap1/app/src/main/AndroidManifest.xml:16:5-70
+20-->/home/jamal/Desktop/Phonegap1/app/src/main/AndroidManifest.xml:16:22-68
+21    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+21-->/home/jamal/Desktop/Phonegap1/app/src/main/AndroidManifest.xml:17:5-80
+21-->/home/jamal/Desktop/Phonegap1/app/src/main/AndroidManifest.xml:17:22-77
+22    <uses-permission android:name="android.permission.READ_CONTACTS" />
+22-->/home/jamal/Desktop/Phonegap1/app/src/main/AndroidManifest.xml:18:5-72
+22-->/home/jamal/Desktop/Phonegap1/app/src/main/AndroidManifest.xml:18:22-69
+23    <uses-permission android:name="android.permission.WRITE_CONTACTS" />
+23-->/home/jamal/Desktop/Phonegap1/app/src/main/AndroidManifest.xml:19:5-73
+23-->/home/jamal/Desktop/Phonegap1/app/src/main/AndroidManifest.xml:19:22-70
+24    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+24-->/home/jamal/Desktop/Phonegap1/app/src/main/AndroidManifest.xml:7:5-81
+24-->/home/jamal/Desktop/Phonegap1/app/src/main/AndroidManifest.xml:7:22-78
+25    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+25-->/home/jamal/Desktop/Phonegap1/app/src/main/AndroidManifest.xml:21:5-79
+25-->/home/jamal/Desktop/Phonegap1/app/src/main/AndroidManifest.xml:21:22-76
+26    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+26-->/home/jamal/Desktop/Phonegap1/app/src/main/AndroidManifest.xml:22:5-71
+26-->/home/jamal/Desktop/Phonegap1/app/src/main/AndroidManifest.xml:22:22-68
+27    <uses-permission android:name="android.permission.BROADCAST_STICKY" />
+27-->/home/jamal/Desktop/Phonegap1/app/src/main/AndroidManifest.xml:23:5-75
+27-->/home/jamal/Desktop/Phonegap1/app/src/main/AndroidManifest.xml:23:22-72
+28
+29    <application
+29-->/home/jamal/Desktop/Phonegap1/app/src/main/AndroidManifest.xml:24:5-38:19
+30        android:allowBackup="true"
+30-->/home/jamal/Desktop/Phonegap1/app/src/main/AndroidManifest.xml:25:9-35
+31        android:appComponentFactory="android.support.v4.app.CoreComponentFactory"
+31-->[com.android.support:support-compat:28.0.0] /home/jamal/.gradle/caches/transforms-2/files-2.1/f14724208b5bfeeef0d6bdefe649bca7/support-compat-28.0.0/AndroidManifest.xml:22:18-91
+32        android:debuggable="true"
+33        android:icon="@drawable/ic_launcher"
+33-->/home/jamal/Desktop/Phonegap1/app/src/main/AndroidManifest.xml:26:9-45
+34        android:label="@string/app_name"
+34-->/home/jamal/Desktop/Phonegap1/app/src/main/AndroidManifest.xml:27:9-41
+35        android:testOnly="true"
+36        android:theme="@style/AppTheme" >
+36-->/home/jamal/Desktop/Phonegap1/app/src/main/AndroidManifest.xml:28:9-40
+37        <activity
+37-->/home/jamal/Desktop/Phonegap1/app/src/main/AndroidManifest.xml:29:9-37:20
+38            android:name="com.example.phonegap.MainActivity"
+38-->/home/jamal/Desktop/Phonegap1/app/src/main/AndroidManifest.xml:30:13-61
+39            android:label="@string/app_name" >
+39-->/home/jamal/Desktop/Phonegap1/app/src/main/AndroidManifest.xml:31:13-45
+40            <intent-filter>
+40-->/home/jamal/Desktop/Phonegap1/app/src/main/AndroidManifest.xml:32:13-36:29
+41                <action android:name="android.intent.action.MAIN" />
+41-->/home/jamal/Desktop/Phonegap1/app/src/main/AndroidManifest.xml:33:17-69
+41-->/home/jamal/Desktop/Phonegap1/app/src/main/AndroidManifest.xml:33:25-66
+42
+43                <category android:name="android.intent.category.LAUNCHER" />
+43-->/home/jamal/Desktop/Phonegap1/app/src/main/AndroidManifest.xml:35:17-77
+43-->/home/jamal/Desktop/Phonegap1/app/src/main/AndroidManifest.xml:35:27-74
+44            </intent-filter>
+45        </activity>
+46    </application>
+47
+48</manifest>

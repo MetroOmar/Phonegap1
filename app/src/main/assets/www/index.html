@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registration Form Using jQuery - Demo Preview</title>
+    <meta name="robots" content="noindex, nofollow">
+    <!-- Include CSS File Here -->
+    <link rel="stylesheet" href="css/style.css"/>
+    <!-- Include JS File Here -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/registration.js"></script>
+</head>
+<body>
+<div class="container">
+    <div class="main">
+        <form class="form" method="post" action="#">
+            <h2>My Storage</h2>
+            <label>Storage Type :</label>
+            <select name="storagetype" id="storagetype" required>
+                <option selected disabled hidden>choose storage type</option>
+                <option>Home</option>
+                <option>Business</option>
+            </select>
+            <br>
+            <label>Dimension :</label><br>
+            <select  name="number" id="dim" required>
+                <option selected disabled hidden>choose dimensions</option>
+                <option>2m^2</option>
+                <option>4m^2</option>
+                <option>8m^2</option>
+                <option>16m^2</option>
+            </select>
+            <br>
+            <label>Date :</label><br>
+            <input  type="date" name="date" id="datepicker" required><br>
+            <label >Storage Features:</label>
+            <select name="storagefeatures" id="storagefeatures" multiple required>
+                <option selected disabled hidden>choose storage features</option>
+                <option>Private space</option>
+                <option>CCTV </option>
+                <option>Sharing space</option>
+
+            </select><br>
+            <label>Monthly Rent:</label><br>
+            <input type="number" id="rent" required><br>
+            <label>Name of Reporter :</label>
+            <input type="text" name="dname" id="name" required><br>
+            <label>Notes :</label><br>
+            <textarea placeholder="Add any additional comments" id="txtarea"></textarea>
+            <br>
+            <input type="button" name="submit" id="register" value="submit">
+        </form>
+    </div>
+</div>>
+
+
+</body>
+</html>

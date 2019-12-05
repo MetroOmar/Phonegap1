@@ -1,0 +1,7 @@
+#Fri Nov 29 08:28:04 EAT 2019
+base.0=/home/jamal/Desktop/Phonegap1/app/build/intermediates/dex/debug/mergeExtDexDebug/out/classes.dex
+path.1=classes.dex
+renamed.1=classes2.dex
+path.0=classes.dex
+renamed.0=classes.dex
+base.1=/home/jamal/Desktop/Phonegap1/app/build/intermediates/dex/debug/mergeProjectDexDebug/out/classes.dex
